@@ -1,6 +1,7 @@
 import phonenumbers
 from phonenumbers import geocoder , carrier , timezone
-number = "9876543210"
+
+number = input("Enter Mobile no. : ")
 
 num = phonenumbers.parse(number , "IN" )                #IN --> Country History,INDIA
 
