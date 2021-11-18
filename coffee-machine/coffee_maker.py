@@ -26,8 +26,8 @@ class CoffeeMaker:
         for item in order.ingredients:
             self.resource[item] -= order.ingredients[item]
         
-        print(f"Here is your {order.name}  . Enjoy ")
+        print(emojis.encode(f"Here is your {order.name} :coffee: . Enjoy "))
 
 
-emojified = emojis.encode("There is a :coffee: in my boot !")
-print(emojified)
+
+
